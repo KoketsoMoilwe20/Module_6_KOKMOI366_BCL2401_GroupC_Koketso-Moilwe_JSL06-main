@@ -38,25 +38,7 @@ function displayMenuItems(menu) {
         }
     }
         
-
-        // Set the text content of the category element to the category name
-
-        // Append the category element to the menu container
-
-        
-
-        // Append a list of items element to the menu container
-
-        
-
             
-
-            // Set the text content of the list item element to the item name
-
-            
-
-           
-
             
 }
 
@@ -68,6 +50,7 @@ function addToOrder(itemName) {
     // Create a list item for the order
     const listItem = document.createElement("li");
     listItem.textContent = itemName;
+    
     // Set the text content of the list item to the item name
 
     // Append the list item to the order items list
